@@ -87,7 +87,7 @@ $("#nextactivity").on("click", function() {
   $("#acttwo").show();
 });
 
-}
+});
 
 
 
