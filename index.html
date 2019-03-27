@@ -1,207 +1,287 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mindfulness</title>
-    <link rel="stylesheet" type="text/css" href="/change-my-mood/index.css">
-    <script type="text/javascript" src="/change-my-mood/index.js"></script>
-  </head>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery.textareaAutoResize.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mindfulness</title>
+</head>
+
 <body>
   <intro id="intro">
-     <wrapper id="animation">
-       <p class="animated hinge bounce" id="words">I'm worthless</p>
-   <p class="animated zoomOutUp bounce" id="words">I can't breathe</p>
-   <p class="animated zoomOutRight bounce" id="words">are they laughing at me?</p>
+    <wrapper id="animation">
+      <p class="animated hinge bounce" id="words">I'm worthless</p>
+      <p class="animated zoomOutUp bounce" id="words">I can't breathe</p>
+      <p class="animated zoomOutRight bounce" id="words">are they laughing at me?</p>
       <p class="animated rollOut bounce" id="words">this isn't fair!</p>
       <p class="animated hinge bounce" id="words">I can't do anything right</p>
-   <p class="animated zoomOutUp bounce" id="words">I'm going to fail</p>
-       <container id="staticwords">
+      <p class="animated zoomOutUp bounce" id="words">I'm going to fail</p>
+      <container id="staticwords">
         <p1 class="animated fadeInDown" id="static">help</p1>
         <p1 class="animated fadeInDown" id="statictwo">me</p1>
         <p2 class="animated fadeInDown" id="staticthree">Feel Better</p2>
-            </container>
-   <p class="animated zoomOutRight bounce" id="words">I'm unloveable</p>
+      </container>
+      <p class="animated zoomOutRight bounce" id="words">I'm unloveable</p>
       <p class="animated rollOut bounce" id="words">I need to teach her a lesson</p>
-  <p class="animated hinge bounce" id="words">This isn't fair!</p>
-   <p class="animated rotateOut bounce" id="words">I can't breathe</p>
-   <p class="animated rollOut" id="words">are they laughing at me?</p>
+      <p class="animated hinge bounce" id="words">This isn't fair!</p>
+      <p class="animated rotateOut bounce" id="words">I can't breathe</p>
+      <p class="animated rollOut" id="words">are they laughing at me?</p>
       <p class="animated rollOut bounce" id="words">I'm a failure</p>
       <p class="animated hinge bounce" id="words">he needs to pay!</p>
-   <p class="animated fadeOutDown bounce" id="words">I'm going to fail</p>
-   <p class="animated zoomOutRight bounce" id="words">I'm unloveable</p>
+      <p class="animated fadeOutDown bounce" id="words">I'm going to fail</p>
+      <p class="animated zoomOutRight bounce" id="words">I'm unloveable</p>
       <p class="animated rollOut bounce" id="words">I need to teach her a lesson</p>
       <p class="animated zoomOutUp delay-10s" id="words">I'm going to fuck up</p>
-   <p class="animated hinge bounce" id="words">I'm a burden</p>
-        <p class="animated zoomOutRight bounce" id="words">I will die alone</p>
+      <p class="animated hinge bounce" id="words">I'm a burden</p>
+      <p class="animated zoomOutRight bounce" id="words">I will die alone</p>
       <p class="animated rollOut bounce" id="words">what makes her think she can treat me that way?</p>
       <p class="animated hinge bounce" id="words">I will show him</p>
-   <p class="animated zoomOutUp bounce" id="words">depression</p>
-   <p class="animated zoomOutRight bounce" id="words">anxiety</p>
+      <p class="animated zoomOutUp bounce" id="words">depression</p>
+      <p class="animated zoomOutRight bounce" id="words">anxiety</p>
       <p class="animated rollOut bounce" id="words">anger</p>
-      </wrapper>
-    <div id="test"></div>
-   <div class="introtextwrapper">
-  <div class="introtext">
-    <p> Our thoughts determine our reality. One hundred different people might stare at the same sunset on the same beach on the same day and have one hundred different experiences. One man feels angry because his phone is dead because he's a huge idiot who came home drunk and didn't plug it in so now he can’t post a photo of the sunset onto Instagram so his ex-girlfriend can't see it to know that he's having a wonderful time in Cabo, unfazed, strolling along the beach, admiring sunsets, not thinking about her at all.</p>
-    <p> One woman feels greatful that she arrived at the beach just as the sky bled red, whorls of violet whirling over the horizon, the light lingering for a moment, and then gone. While the woman ten footprints behind her thinks about all the remote work she has to do this weekend, waiting for her manager to email her any second, not noticing the sunset at all. </p>
-    <p> As dusk falls, one man stares at the sea, wishing he was a hard, empty, shell scraping along the ocean floor, thinking how freeing it would be to walk into the ocean with all his clothes on, letting the waves tumble over him until he sinks to the bottom like a heavy stone. You get the idea.</p>
-    <p>Our thoughts determine our moods which determines our days which determines our years which determine our lives. Our thoughts are powerful. The scientifically proven placebo and nocebo effects show how positive and negative thoughts influence our physiological responses to medical treatments. When we say statements like “I’m just in a bad mood today” or “he’s just pissing me off,” we reveal how we often think of our moods as random, out of our control, or automatic. We conflate our moods with our thoughts, which do often occur in a constant stream without our volition. Neuroscientists estimate that the average person has an average of 2,000-3000 thoughts an hour. If your thoughts are mostly negative, then your mood will be negative as well.
-</p>
-    <p>Cognitive Behavioral Therapy (CBT) is a branch of therapy that characterizes mood disorders as simply the persistence of the same negative mood, composed of the same persistent negative thoughts. CBT suggests that by becoming aware of our thoughts, we can disrupt the thought pattern, thereby disrupting the mood, thereby disrupting the mood disorder.<p> 
-<p> I was surprised to learn that those who suffer from the same mood disorders have very similar thought patterns. Depression is the persistence of thoughts of worthlessness, helplessness, pessimism, and exhaustion. “I can’t do anything right” “I’m unloveable” “There’s no point in even trying.” “I’ll never be happy.” Anger or Intermittent Explosive Disorder (IED) is characterized by thoughts of self-righteousness, perfectionism, and control. “I don’t deserve to be treated this way” “this isn’t fair” “I should have done better.” Anxiety is characterized by thoughts that center around fear, doubt, and panic. “I’m going to fail,” “I’m having a heart attack,” “Everyone is going to see that photo and think I’m trying too hard.” 
-</p>
-    <p>If it takes as much energy to have negative thoughts as it does to have positive thoughts, why do negative thoughts persist? One potential explanation is that the mind has a tendency to form thought patterns, which can then hard to break. Another explanation is that the more we have the same similar negative thoughts,the more we start to believe these thoughts as "true" rather than just thoughts.</p> 
-    <p> Much like a self-fulfilling prophecy, our thoughts affect our physiological responses and our habits, thereby perpetuating the dominant thought pattern. For example, in the ultimate catch-22, individuals who suffer from depression also experience physical symptoms like exhaustion and aches and pains, which makes them even less likely to do activities like exercise, meeting with friends, and trying new hobbies, which could help them out of their depression. Rather, they isolate themselves further, staying home, ruminating in depressive thoughts, furthering their depression. Individuals who experience anxiety may feel a racing heart, shortness of breath, or dizziness, which may further their belief that they are having a heart attack or need to go to a hospital, furthering their anxious thoughts, furthering their symptoms.</p>
-    <p> Research shows that those who suffer from mood disorders have physiological changes in their brain. Those who suffer from depression show shrinkage in areas of the brain, such as the hippocampus, as well as have a decreased function of neurotransmitters. Those who suffer from intermittent explosive disorder (IED) have significantly lower volume of brain gray matter. We can take these physiological changes as evidence that negative thoughts and negative moods are an effect of a physiological change in the brain rather than the cause. We then look for treatments that can treat our physiological disturbance, such as antidepressents, rather than our thought patterns, such as CBT. Most research shows that CBT methods are as effective as antidepressants and more enduring. Most patients who take antidepressants without CBT are more likely to relapse. Obviously, a certain group of people who suffer from mood and psychiatric disorders do need and can benefit from medications, but personally, I believed that they are over-prescribed and should be prescribed in conjunction with therapy.   
-    </p>
-    <p> While CBT sounds so simple in theory, in practice, it can be extremely difficult to detangle the thoughts that determine your moods, especially while you’re in the throes of a particular disruptive mood. I recently challenged my own thought assumptions that I was not a "technical person," by completing a front-end-web development course. For my course final project, I wanted to design a website that incorporated some of the exercises designed to treat mood disorders. Even if you don’t suffer from a mood disorder, but just an occasional bad mood, you’re likely to still benefit from the exercises. While it’s optimal to complete the exercises while you’re experiencing the mood, you can still benefit from completing the exercise afterwards.</p>
-    <p> Just like almost everything in this world, the exercises will only work if you are committed to them and want to change your mood. Life isn’t just about “happiness” and if you want to revel in your occasional sulky or irritable mood, feel no shame, enjoy it, and continue. But if you are desperate to escape the prison of your mind, and find yourself in search for tools to change our mood and cultivate greater awareness of your own psyche, then this site is for you.   
-    </p>
-    
-    <div id="dont"> <button id="start">change my mood</button> 
+    </wrapper>
+      <div id="introtextwrapper">
+       <div id="introtextcontainer">
+          <div id="literary">
+                <p> What did you today? I took a walk on the beach. Does that tell you    anything? One hundred different people might stare at the same sunset on the same beach on the same day and have one hundred different experiences. One man feels frustrated  because his phone is dead because he's a huge idiot who came home drunk and didn't plug it in so now he can’t post a photo of the sunset onto Instagram so his ex-girlfriend can't see it to know that he's having a truly fantastic time in Cabo, unfazed, strolling along the beach, admiring sunsets, not
+          thinking about her at all.</p>
+                 <p> One woman feels greatful that she arrived at the beach just as the sky bled red, whorls of violet whirling over the horizon, the light lingering for a moment, and then gone. Ten fooprints behind her, a younger woman thinks about the brief she has to file this weekend, waiting for her client to call her back any second, not noticing the sunset at all. </p>
+                 <p> As dusk falls, one man stares at the sea, wishing he was a hard, empty, shell scraping along the ocean floor, thinking how freeing it would be to walk into the ocean with all his clothes on, letting the waves tumble over him until he sinks to
+          the bottom like a heavy stone.</p>  
+                 </div>
+            <div id="textwrapper">       
+        <p>Our thoughts determine our moods, our days, our existence. The scientifically proven placebo and <a href="https://www.smithsonianmag.com/science-nature/what-is-the-nocebo-effect-5451823/">nocebo</a> effects show how positive and negative thoughts influence
+          our responses to medical treatments. Negative thoughts can cause us feel physical pain. When we say statements like “I’m just in a bad mood today” or “he’s just pissing me off,” we reveal how we think of our moods as random, out of our control, or automatic. We conflate our
+          moods with our thoughts, which do occur in a constant stream without our volition. Neuroscientists estimate that the average person has an average of 2,000-3000 thoughts an hour. If your thoughts are mostly negative, then it only follows your mood will
+          be negative as well.
+        </p>
+        <p>Cognitive Behavioral Therapy (CBT) is a branch of therapy that characterizes mood disorders as simply the persistence of the same negative mood, composed of the same pattern of negative thoughts. CBT suggests that by becoming aware of our thoughts,
+          we can disrupt the thought pattern, disrupt the mood, thereby disrupting the mood disorder.
+          <p>
+            <p> I was surprised to learn that those who suffer from the same mood disorders have very similar thought patterns. Depression is the persistence of thoughts of worthlessness, helplessness, pessimism, and exhaustion. “I can’t do anything right”
+              “I’m unloveable” “There’s no point in even trying.” “I’ll never be happy.” Anger or Intermittent Explosive Disorder (IED) is characterized by thoughts of self-righteousness, perfectionism, and control. “I don’t deserve to be treated this
+              way” “this isn’t fair” “I should have done better.” Anxiety is characterized by thoughts that center around fear, doubt, and panic. “I’m going to fail,” “I’m having a heart attack,” “Everyone is going to see that photo and think I’m stupid and trying too hard.”
+            </p>
+         
+       <p> While CBT sounds suspiciously simple in theory, in practice, it can feel nearly impossible to detangle and intercept the thoughts that determine your moods, especially while you’re in the throes of a particular disruptive mood. I recently challenged my own thought
+              assumptions that I was not a "technical person," by completing a front-end-web development course. For my course final project, I wanted to design a website that incorporated some of the exercises designed to treat mood disorders. Even if
+              you don’t suffer from a mood disorder, but just an occasional bad mood, you’re likely to still benefit from the exercises. While it’s optimal to complete the exercises while you’re experiencing the mood, you can still benefit from completing
+              the exercise afterwards.</p>
+            <p> Just like everything in life, the exercises will only work if you are committed to them and want to change your mood. Life isn’t just about “happiness” and if you want to revel in your occasional sulky or irritable mood, feel
+              no shame, enjoy it, and continue. But if you are desperate to escape the prison of your mind, and find yourself in search for tools to change our mood and cultivate greater awareness of your own psyche, then this site is for you.</p>
+            <div id="more">
+             <p> If it takes as much energy to have negative thoughts as it does to have positive thoughts, why do negative thoughts persist? One potential explanation is that the mind has a tendency to form thought patterns, which can then hard to break.
+              Another explanation is that the more we have the same similar negative thoughts,the more we start to believe these thoughts as "true" rather than just thoughts.</p>
+ <p> Much like a self-fulfilling prophecy, our thoughts affect our physiological responses and our habits, thereby perpetuating the dominant thought pattern. For example, in the ultimate catch-22, individuals who suffer from depression also experience
+              physical symptoms like exhaustion and aches and pains, which makes them even less likely to do activities like exercise, meeting with friends, and trying new hobbies, which could help them out of their depression. Rather, they isolate themselves
+              further, staying home, ruminating in depressive thoughts, furthering their depression. Individuals who experience anxiety may feel a racing heart, shortness of breath, or dizziness, which may further their belief that they are having a heart
+             
+              attack or need to go to a hospital, furthering their anxious thoughts, furthering their symptoms.</p>
+        <p>   Research shows that those who suffer from mood disorders have physiological changes in their brain. Those who suffer from depression show shrinkage in areas of the brain, such as the hippocampus, as well as have a decreased function of neurotransmitters.
+              Those who suffer from intermittent explosive disorder (IED) have significantly lower volume of brain gray matter. We can take these physiological changes as evidence that negative thoughts and negative moods are an effect of a physiological
+              change in the brain rather than the cause. We then look for treatments that can treat our physiological disturbance, such as antidepressents, rather than our thought patterns, such as CBT. Most research shows that CBT methods are as effective
+              as antidepressants and more enduring. Most patients who take antidepressants without CBT are more likely to relapse. Obviously, a certain group of people who suffer from mood and psychiatric disorders do need and can benefit from medications,
+              but personally, I believed that they are over-prescribed and should be prescribed in conjunction with therapy.</p>
+       </div>
+           </div> 
+         
+            <div id="dont"> <button id="myBtn">read more about CBT</button> <button id="start">change my mood</button>
+         </div>
+        </div>
     </div>
-    </div>
-   </div>
   </intro>
-  <questions>
-     <question>
-   <div class="gridcontainer">
-     <p>how do you feel when dkfjdkjfl3 kfjlsdkdfjsdlkfjsl i am just typing random?
-      </p>
-      <div class="textarea">
-        <textarea placeholder="hello"></textarea>
-     </div>
-      <div class="switcher">
-         <button class="previous">previous</button>
-          <button class="next">next</button>
-      </div>
-   </div>
-    </question>
-    <question>2
-     <div class="gridcontainer">
-     <p>how do you feel when dkfjdkjfl3 kfjlsdkdfjsdlkfjsl i am just typing random?
-      </p>
-      <div class="textarea">
-        <textarea placeholder="hello"></textarea>
-     </div>
-      <div class="switcher">
-         <button class="previous">previous</button>
-          <button class="next">next</button>
-      </div>
-   </div>
-    </question>
-    <question> 3
+  <questions id="questions">
+    <question>
       <div class="gridcontainer">
-     <p>how do you feel when dkfjdkjfl3 kfjlsdkdfjsdlkfjsl i am just typing random?
-      </p>
-      <div class="textarea">
-        <textarea placeholder="hello"></textarea>
-     </div>
-      <div class="switcher">
-         <button class="previous">previous</button>
+        <p>Set the scene. Where were you when your mood changed? Who were you with? What color was the sky?
+        </p>
+        <div class="textarea">
+          <textarea placeholder="I was in the kitchen with Susan. A breeze was blowing through the open window. The toast was burning. My hand was shaking. We heard Benji screaming from his room, and I said that I would get him. Even though she heard me, Susan still went to get him herself.
+                                 
+I was at home, alone, lying on my bed, propped on my elbows, scrolling through Facebook. My limbs were stones. The algorithm showed me a photo of me from college with Jessica, our arms wrapped around each other like twins in the womb.
+
+I was alone at Brewster, sitting at the last table in the back. Ariana Grande was blasting on the speakers. Her voice sounded like a siren. The heat was too high. The cafe was dimly lit with no natural light. The coffee tasted like tar. My heart was beating. Two girls at the next table were debating whether  there was an evolutionary basis for non-monogamy. She wanted to fuck the barista. She wanted another latte. She wanted hair like Alexandria Ocasio-Cortez. There was no air in the room."></textarea>
+        </div>
+        <div class="switcher">
+          <button class="previous">previous</button>
           <button class="next">next</button>
+        </div>
       </div>
-   </div>
     </question>
-    <question> 4
+    <question>
       <div class="gridcontainer">
-     <p>how do you feel when dkfjdkjfl3 kfjlsdkdfjsdlkfjsl i am just typing random?
-      </p>
-      <div class="textarea">
-        <textarea placeholder="hello"></textarea>
-     </div>
-      <div class="switcher">
-         <button class="previous">previous</button>
+        <p>How strong was your mood? Quantify your mood from 1-10, where ten is the most extreme.
+        </p>
+        <div class="textarea">
+          <textarea placeholder="I felt anger around a 6. I closed the window so hard that I almost broke the sill.
+
+I felt sadness around an 8. I collapsed my face into the pillow so my roommate couldn't hear me sobbing.
+
+I felt anxiety around a 5. My throat was constricting. I couldn't breathe."                                 
+                                 ></textarea>
+        </div>
+        <div class="switcher">
+          <button class="previous">previous</button>
           <button class="next">next</button>
+        </div>
       </div>
-   </div>
     </question>
-    <question>5
+    <question>
       <div class="gridcontainer">
-     <p>how do you feel when dkfjdkjfl3 kfjlsdkdfjsdlkfjsl i am just typing random?
-      </p>
-      <div class="textarea">
-        <textarea placeholder="hello"></textarea>
-     </div>
-      <div class="switcher">
-         <button class="previous">previous</button>
+        <p>What were some of your automatic thoughts?
+        </p>
+        <div class="textarea">
+          <textarea placeholder="Susan doesn't listen to me. I shouldn't have woken up so late. Susan doesn't trust me with Benji. She thinks I'm a bad father. I need a drink. She doesn't even try to understand what I'm going through.
+                               
+                                                                                                                                              I'll never stop missing Jessica. I'll never have a friend like that again. She was the only one that ever understood me. It's Friday night and I'm just here alone. I don't have any true friends. Everyone else is doing cool stuff and I'm just wasting my twenties. I'm a waste of space. I'll never be happy again. I wish I could just die like Jessica.
+                               
+                               
+I can't breath. I am going to fail the test tomorrow. I don't understand the material at all. I really can't breath. I might be having an athsma attack. I don't have my inhaler. If I fail the test, it will ruin my GPA and I won't get into medical school. I feel dizzy. The rooom is spinning. I can't breathe. Should I call 9-11?   
+"
+                              
+                              
+                              
+                           ></textarea>
+        </div>
+        <div class="switcher">
+          <button class="previous">previous</button>
           <button class="next">next</button>
+        </div>
       </div>
-   </div>
     </question>
-    <question>6
-   <div class="gridcontainer">
-     <p>how do you feel when dkfjdkjfl3 kfjlsdkdfjsdlkfjsl i am just typing random?
-      </p>
-      <div class="textarea">
-        <textarea placeholder="hello"></textarea>
-     </div>
-      <div class="switcher">
-         <button class="previous">previous</button>
-          <button class="next">next</button>
-      </div>
-   </div>
-    </question>
-    <question>7
+    <question>
       <div class="gridcontainer">
-     <p>how do you feel when dkfjdkjfl3 kfjlsdkdfjsdlkfjsl i am just typing random?
-      </p>
-      <div class="textarea">
-        <textarea placeholder="hello"></textarea>
-     </div>
-      <div class="switcher">
-         <button class="previous">previous</button>
-        <button id="finish">finish</button>
+        <p>Target what I call the S.O.B thought (Son of a Bitch). The S.O.B thought is at the very heart of your mood, the one that causes you the most distress, and triggers many of your other thoughts. 
+        </p>
+        <div class="textarea">
+          <textarea placeholder="Susan thinks I'm a bad father.
+
+                                                                                                                                                   I'll never be happy again. 
+
+                                                                                                                                               I'm having an asthma attack.                                "></textarea>
+        </div>
+        <div class="switcher">
+          <button class="previous">previous</button>
+          <button class="next">next</button>
+        </div>
       </div>
+    </question>
+    <question>
+      <div class="gridcontainer">
+        <p>In CBT, we treat the the S.O.B thought, not as true, but as a hypothesis. If the thought is false, we can dismiss it. If the thought is true, we can then search for solutions. Write down evidence that supports the S.O.B. thought.
+        </p>
+        <div class="textarea">
+          <textarea placeholder="My S.O.B: Susan thinks I'm a bad father. When Benji cried, Susan saw that my hand was shaking and so she went to get him even though I said I would. She often makes jokes about how she's a single mother to her friends. She hires Sarah to watch him instead of asking me first if I can. She always gives me this worried look whenever I hold him and says asks me if 'have you had a drink today'  even though she knows I've been sober for weeks.
+                                                                                                                                               My S.O.B: I'll never be happy again. Jessica knew me since we were kids and I haven't felt as close to anyone even Tommy. Each day feels like a massive struggle like I'm Sisyphus, rolling a boulder up a mountain only to watch it fall down again. I can't connect with other people. I hate my job. I'll never be in love.
+                                 
+                                                                                                                                              My S.O.B: I'm having an asthma attack. I have shortness of breath. I feel like I can't speak. The cafe is very dusty and that may have triggered the attack. When I was a kid I had an asthma attack and had to be taken to the emergency room. I had a runny nose last night and couldn't sleep. My chest feels tight."></textarea>
+        </div>
+        <div class="switcher">
+          <button class="previous">previous</button>
+          <button class="next">next</button>
+        </div>
+      </div>
+    </question>
+    <question>
+      <div class="gridcontainer">
+        <p>Now search for evidence that does not support the SOB thought.
+        </p>
+        <div class="textarea">
+          <textarea placeholder="My S.O.B thought:Susan thinks I'm a bad father. Susan has told me that she admires my patience with Benji. I calmed down and later asked Susan why she still got Benji even though she said I would and she said she actually didn't hear me and she just got him automatically. She said she hires Sarah instead of asking me to babysit because she knows I'm busy with work plus A.A meetings.She said she sometimes gives me worried looks when I'm holding him because sometimes I'm not supporting his head correctly but she doesn't want to say anthing because she's afraid I'll get mad and feel discouraged.
+
+My S.O.B thought: I'll never be happy again. I have been sad in the past and did not stay sad. I have had good days since Jessica's death. Often I don't even think of Jessica and didn't even think of her until I went on Facebook. Everyone makes it look like they're doing cool shit, but they are probably not in reality. I don't have many friends because I haven't really let anyone in. I do connect with people easily when I actually try. I haven't met anyone who I liked since Tommy, but I also don't ever go on dates or leave my house. When I do, guys tend to hit on me. I'm quitting my job soon to start grad school and my life will be totally different. I can't accurately predict my happiness then.  
+                                                                                                                                                   My S.O.B. thought: I'm having an asthma attack. I haven't had an asthma attack since I was a kid. I left the cafe and went out for some fresh air. I took a few deep breaths. I realized I could breath fine. I called Lucy to talk about the biology test and realized I could also talk fine. She said that she was nervous too but reminded me that I always thought I would fail and then always did well. She made me realize I knew the material better than I thought I did. I realized that even if I failed this one test, I did well on the other ones, and it wouldn't be that big of a deal. I realized that I just couldn't focus in the cafe, and needed to go to the library instead. 
+                                 
+                                 "></textarea>
+        </div>
+        <div class="switcher">
+          <button class="previous">previous</button>
+          <button class="next">next</button>
+        </div>
+      </div>
+    </question>
+    <question>
+      <div class="gridcontainer">
+        <p>Write an alternative thought to your S.O.B thought. Rate how much you believe this thought from 1-10, where ten means you believe the thought 100%. Then re-rate your mood from 1-10.
+        </p>
+        <div class="textarea">
+          <textarea placeholder="My alternative thought: Susan doesn't think I'm a bad father, but just that I sometimes hold Benji wrong. I need to continue to work on my anger so that she isn't afraid to correct me. She's proud of all the progress I've made. I believe this thought about 80%. My mood now: Anger is a 1. 
+          
+
+                                                                                                                                             My alternative thought: I've been sad in the past and got happier so just because I'm sad right now doesn't mean I'l never be happy again. Even though things seem to difficult to change, when I break them down into tiny problems, I find that I can usually solve them. I believe this thought about 50%. My mood now: Depression 4.                     
+ 
+
+                                                                                                                                             My alternative thought: I'm not having an athsma attack, I just can't focus in the cafe. I know the material better then I thought I do. Even if I fail, I'll still be okay. I believe this thought about 90%. My mood now: Anxiety 1.                                 "></textarea>
+        </div>
+        <div class="switcher">
+          <button class="previous">previous</button>
+          <button id="finish">finish</button>
+        </div>
       </div>
     </question>
   </questions>
   <result id="result">
-    <table id="table" style="width:60%">
+    <div id="resultcontainer">
+         <table id="table" style="width:60%">
+           <tr>
+            <th>
+         Set the scene
+             </th>
+             <td id="one"></td>
+          </tr> 
+          <tr>
+            <th>
+          How strong was the mood? </th>
+          <td id="two"</td>
+          </tr>
+            <tr>
+              <th>
+           What were some of your automatic thoughts?
+          </th>
+          <td id="three"></td>
+          </tr>
+            <tr>
+            <th>
+      What was your S.O.B thought</th>
+          <td id="four"></td>
+          </tr> 
+          <tr>
+          <th>
+        What was evidence that supported the S.O.B thought?</th>
+        <td id="five"></td>
+       </tr>
+       <tr>
+      <th>
+        What was evidence that did not support the thought?</th>
+         <td id="six"></td>
+      </tr> 
       <tr>
-        <th>
-        who what when where?
-      </th>
       <th>
-        what did you feel? rate each mood</th>
-      <th>
-        automatic thoughts</th>
-      <th>
-        evidence that supports the hot thought</th>
-      <th>
-        evidence that does support the hot thought</th>
-      <th>
-        alternative/balenced thought</th>
-      <th>
-        rate mood now</th>
+        Alternative S.O.B thought. How much do you believe that thought? Re-rate your mood now.</th>
+        <td id="seven"></td>
       </tr>
-      <tr id=resultlist>
-       <td> </td>
-     <td> </td>
-      <td>  </td>
-      <td>  </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      </tr>
- 
-    </table>
-<!--      <div class="switcher"> -->
-<!--          <button class="previous">previous</button> -->
-<!--         <button id="finish">next</button> -->
-<!--       </div> -->
-   <button id="center" onclick="myFunction()">Print this page</button>
-
-<script>
-function myFunction() {
-  window.print();
-}
-</script>
-  </result>
+      </table>
+      <div id="lala">
+        <button id="center" onclick="myFunction() ">print your thought record</button>
+        <script>
+        function myFunction() {
+      window.print();
+      }
+      </script>
+      <button class="home"> home</button>
+      <button id="nextactivity"> next activity </button>
+        </div>
+    </div>
+</result>
+  <div id="acttwo">
+     <button class="home"> home</button>
+    
+  </div>
+  
 </body>
 </html>
