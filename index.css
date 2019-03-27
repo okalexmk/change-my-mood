@@ -24,52 +24,12 @@
   position:absolute;
 }
 
-  @media (max-width: 600px) { 
-#introtextwrapper{
-  position:absolute;
-  display:flex;
-  justify-content:center;
-  height:400px;
-  margin-top:80%;
-  width:100%;
-   background-size:cover;
- background-image: url("https://images.pexels.com/photos/1095965/pexels-photo-1095965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-repeat:no-repeat;
-  }} 
-
-@media (max-width: 768px) { 
-#introtextwrapper{
-  position:absolute;
-  display:flex;
-  justify-content:center;
-  height:400px;
-  margin-top:70%;
-  width:100%;
-   background-size:cover;
- background-image: url("https://images.pexels.com/photos/1095965/pexels-photo-1095965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-repeat:no-repeat;
-  }}
-
-
-
-  @media (max-width: 900px) { 
-#introtextwrapper{
-  position:absolute;
-  display:flex;
-  justify-content:center;
-  height:350px;
-  margin-top:80%;
-  width:100%;
-   background-size:cover;
- background-image: url("https://images.pexels.com/photos/1095965/pexels-photo-1095965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-repeat:no-repeat;
-  }}
 
 #introtextwrapper{ 
   position:absolute;
   display:flex;
   justify-content:center;
-  height:70%;
+  height:65%;
   margin-top:70%;
   width:100%;
    background-size:cover;
