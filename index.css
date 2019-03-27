@@ -1,21 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@okalexmk Sign out
-0
-0 0 okalexmk/change-my-mood
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-change-my-mood/index.css
- Alexandra Kopel first commit
-14ef775 3 days ago
-264 lines (209 sloc)  3.89 KB
-    
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800');
 
@@ -27,14 +9,83 @@ change-my-mood/index.css
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Rock+Salt');
 
+#more{
+  display:none;
+}
+
+#introtextcontainer{
+  display:flex;
+  justify-content:center;
+  width:50%;
+  flex-direction:column;
+  align-items:center;
+  padding:2%;
+  color:black;
+  position:absolute;
+}
+
+  @media (max-width: 600px) { 
+#introtextwrapper{
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  height:400px;
+  margin-top:80%;
+  width:100%;
+   background-size:cover;
+ background-image: url("https://images.pexels.com/photos/1095965/pexels-photo-1095965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat:no-repeat;
+  }} 
+
+@media (max-width: 768px) { 
+#introtextwrapper{
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  height:400px;
+  margin-top:70%;
+  width:100%;
+   background-size:cover;
+ background-image: url("https://images.pexels.com/photos/1095965/pexels-photo-1095965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat:no-repeat;
+  }}
+
+
+
+  @media (max-width: 900px) { 
+#introtextwrapper{
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  height:350px;
+  margin-top:80%;
+  width:100%;
+   background-size:cover;
+ background-image: url("https://images.pexels.com/photos/1095965/pexels-photo-1095965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat:no-repeat;
+  }}
+
+#introtextwrapper{ 
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  height:70%;
+  margin-top:70%;
+  width:100%;
+   background-size:cover;
+ background-image: url("https://images.pexels.com/photos/1095965/pexels-photo-1095965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat:no-repeat;} 
+ 
+
+
+
 
 body{
-  background-color:rgb(246,246,246);
+  background-color:rgb(218,225,235);
   line-height:1.5;
-  color:#4444
+  color:#4444;
   height:100%;
-  width:100%;
- 
+  width:90%;
 }
 
 
@@ -42,21 +93,13 @@ body{
   overflow:hidden;
  display:flex;
  flex-wrap:wrap;
- max-width:100%;
+  margin-top:-2%;
+ width:100%;
   background-image: url("https://res.cloudinary.com/dcbxjz7vr/image/upload/v1553024412/dc29bb38efe73c138e9d6c2ff60e94a6.jpg");
   background-size: cover;
   background-position: center;
   position:absolute;
   background-repeat: no-repeat;
-
-
-}
-#test{
-  margin-top:70%;
-  width:100%;
-  height:35%;
-  background-color:rgb(246,246,246);
-  position:absolute;
 }
 
 #intro{
@@ -65,11 +108,9 @@ body{
 
 }
 #words{
-/*   display:inline */
   font-size:1.6vw;
   font-family:rock salt;
   color:red;
-/*   line-height:.5; */
   animation-duration: 13s;
   animation-delay: 0s;
   animation-iteration-count:2;
@@ -78,7 +119,7 @@ body{
   
 }
 
-}
+
 #static{
   animation-duration:5s;
   animation-delay:4s;
@@ -108,28 +149,26 @@ body{
   justify-content:center;
   align-items:center;
   width:100%;
-/*   height:50%; */
 }
 
 #staticwords p1{
-/*   margin-top:3%; */
   align-self:center;
   margin-bottom:10%;
    font-size:4vw;
+  color:black;
   font-family: Montserrat;
 }
 
 #staticwords p2{
-/*   margin-top:3%; */
   font-family:'Libre Baskerville';
   font-size:2vw;
+  color:black;
   font-style:italic;
  
 }
 
 p{
-/*  margin:20px 20px; */
- font-size:1.2vw;
+ font-size:1.1vw;
  font-style:none;
  text-align:none;
  font-family:'Libre Baskerville';
@@ -139,62 +178,70 @@ p{
 
 
 button{
-/*  margin:0 auto; */
  right-margin:50%;
  left-margin:50%;
- font-size:1vw;
- 
-/*  margin-top:20px; */
-/*  width:150px; */
-/*  height:20px; */
+ font-size:.9vw;
  display:block;
  font-family:Montserrat;
- background-color: #d5dbe9;
+ background-color: rgb(229,237,232);
  border-radius:15px;
   }
 
 question{
   display:none;
-  background-color:#f6f6f6;
-  width:35vw;
-  height:70vh;
+  background-color:rgb(231,234,243);
+  color:black;
+  width:36vw;
+  height:50vh;
   margin:0 auto;
- ;
+
 }
 
- h1{
-  border:1px solid red;
-  
+.gridcontainer p{
+  background-color: rgb(246,246,246);
+  color:black;
+  margin-top:-2%;
+
 }
 
 
 .gridcontainer{
-/*   background-color:blue; */
-/*   border:1px solid blue; */
+  background-color:rgb(231,234,243);
   display:flex;
   height:100%;
   width:100%;
+  padding:2%;
   flex-direction:column;
-  justify-content:center;
   align-items:center;
+  justify-content:center;
 }
 textarea{
+  color:#444;
+  margin-top:3%;
   display:block;
-  padding:0;
   width:100%;
   box-sizing: border-box;
-  height:100%;
+  font-size:1.1vw;
+  height:150%;
+  border:none;
+  border-color: Transparent; 
+    overflow: auto; 
+  font-family:'Libre Baskerville';
+  font-size:.9em;
   
 }
 
 .textarea{
+  font-size:1.1vw;
+  color:#444;
   display:block;
+  border:none;
+  border-color: Transparent; 
+    overflow: auto;   
 	width: 100%;
-   height:40%;
-/*   resize: auto; */
-/*   cursor: text; */
-/*   white-space: pre-wrap; */
-/*   overflow-wrap: break-word; */
+   height:70%;
+  font-family:'Libre Baskerville';
+ 
    }
 
 .switcher{
@@ -204,28 +251,17 @@ textarea{
   justify-content:space-between;
  font-family:Montserrat;
   width:100%;
-  
-}
-
-.introtext{
-  background-color:rgb(246,246,246);
-   margin-top:80%;
-  width:50%;
-  padding:2%;
-  height:100%;
-/*   margn: 0 auto; */
-  color:black;
-  position:absolute;
-/*  width:80%; */
- }
+  }
 
 
 
 #dont{
   display:flex;
+  flex-direction:column;
   text-align:center;
   justify-content:center;
-  width:100%;
+  width:39%;
+  margin:0 auto;
 }
 
 #start{
@@ -234,61 +270,93 @@ textarea{
   text-align:center;
 }
 
-.introtextwrapper{
-  background-color:rgb(246,246,246);
-  display:flex;
-  justify-content:center;
-  
-}
+
 
 .gridcontainer p{
   width:100%;
+  background-color:rgb(231,234,243);
   text-align:justify;
   display:inline-block;
 /*   text-align:center; */
   justify-content:center;
 }
 
-li {
-  list-style-type: none;
-}
-
 #table,th,td{
+  background-color: rgb(231,234,243);
   border: 1px solid black;
 border-collapse: collapse;
   padding:5px;
+  font-size:.9em;
+  color:#444;
+  font-family:'Libre Baskerville';
+ font-weight:400px;
+}
+
+#table th{
+  font-weight:bold;
+  color:black;
 }
 
 #table{
-  background-color: blue;
    margin: 0 auto;
 }
 
 
 #result{
-  background-color:red;
-  border:1px solid red;
  display:none;
   width:60%;
+  color:darkgray;
+  font-size:1.1vw;
   
 }
 
-#resultlist{
-  text-align:center;
+#table{
+  order:1;
+  text-align:left;
 }
 
-#center{
-  margin:0 auto;
+#lala{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  order:2;
+  justify-content:center;
+  align-items:center;
 }
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
+#center, #home,#nextactivity {
+margin:1%;
+}
+
+
+#resultcontainer{
+  display:flex;
+  flex-direction:column;
+  
+}
+
+#textwrapper{
+  background-color:rgb(246,246,246);
+  padding:2%;
+  margin-bottom:2%;
+  margin-top:25%;
+  font-size:1.1em;
+}
+
+
+
+#literary{
+  font-style:oblique;
+  font-size: 1.5vw;
+  padding:1%;
+  margin-top:0;
+  margin-bottom:0;
+  background-color: rgb(231,234,243);
+}
+
+#acttwo{
+  display: none;
+  width:100%;
+  height:100%;
+}
+
